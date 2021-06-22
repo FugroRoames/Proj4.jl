@@ -50,3 +50,14 @@ before creating a transformation, otherwise it will have no effect.
 
 API documentation for the underlying C API may be found here:
 https://proj.org/development/reference/index.html
+
+Proj4.jl also provides some convenience functions to generate common projections; use the inline help mode in the REPL to find out more.  Currently, we supply the following constructors:
+```julia
+WGS84
+Mercator
+TransverseMercator
+UTM
+AlbersEqualArea
+Robinson
+WinkelTripel
+```
